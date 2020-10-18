@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">StasAbiPolster</string>
+    <string name="Igor">Igor</string>
+    <string name="Yurak">Yura.k</string>
+    <string name="Vasil">Vasil</string>
+    <string name="Olex">Olex</string>
+    <string name="Janek">Janek</string>
+    <string name="Lembit">Lembit</string>
+    <string name="Hanno">Hanno</string>
+    <string name="Marko">Marko</string>
+    <string name="YuraP">Yura.P</string>
+    <string name="Ruslan">Ruslan</string>
+    <string name="Dmitro">Dmitro</string>
+    <string name="New">New</string>
+    <string name="btnLoad">Load</string>
+    <string name="btnSave">Save</string>
+    <string name="btnReset">Reset</string>
+    <string name="btnSetting">Setting</string>
+</resources>

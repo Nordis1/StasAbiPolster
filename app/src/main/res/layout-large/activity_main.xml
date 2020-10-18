@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rev"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/Liner1"
+        android:layout_width="@dimen/width_min"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnIgor1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="@string/Igor" />
+
+        <Button
+            android:id="@+id/btnYurak1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="@string/Yurak" />
+
+        <Button
+            android:id="@+id/btnVasil1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="@string/Vasil" />
+
+        <Button
+            android:id="@+id/btnOlex1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="Olex" />
+
+        <Button
+            android:id="@+id/btnJanek1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="@string/Janek" />
+
+        <Button
+            android:id="@+id/btnLembit1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="Lembit" />
+
+        <Button
+            android:id="@+id/btnNew0_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="@string/New" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linernum1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/Liner1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txIgor1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txYurak1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txVasil1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txOlex1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txJanek1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txLembit1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txNew0_2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linermin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/Linernum1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Igormin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Yurakmin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Vasilmin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Olexmin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Janekmin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Lembitmin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Newmin0_2"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+    </LinearLayout>
+    <!--Вторая(правая) панель ктопок и значений-->
+    <LinearLayout
+        android:id="@+id/Liner2"
+        android:layout_width="@dimen/width_min"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/linermin"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnHanno1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:textSize="30dp"
+            android:text="@string/Hanno" />
+
+        <Button
+            android:id="@+id/btnMarko1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:textSize="30dp"
+            android:text="@string/Marko" />
+
+        <Button
+            android:id="@+id/btnYuro1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:textSize="30dp"
+            android:text="@string/YuraP" />
+
+        <Button
+            android:id="@+id/btnRuslan1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:textSize="30dp"
+            android:text="@string/Ruslan" />
+
+        <Button
+            android:id="@+id/btnDmitro1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:textSize="30dp"
+            android:text="@string/Dmitro" />
+
+        <Button
+            android:id="@+id/btnNew1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:textSize="30dp"
+            android:text="@string/New" />
+
+        <Button
+            android:id="@+id/btnNew0_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_max"
+            android:textSize="30dp"
+            android:text="@string/New" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linremin2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/Liner2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txHanno1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txMarko1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txYuro1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txRuslan1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txDmitro1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+        <TextView
+            android:id="@+id/txName1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+        <TextView
+            android:id="@+id/txNew0_3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_max"
+            android:padding="2dp"
+            android:text="0"
+            android:textSize="62dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/linremin2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Hannomin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Markomin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/YuroPmin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Ruslanmin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Dmitromin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/Newmin"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+        <Button
+            android:id="@+id/Newmin0_3"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/height_max"
+            android:textSize="35dp"
+            android:text="-" />
+    </LinearLayout>
+    </LinearLayout>
+    <!--кнопки дейсвий-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/Progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="50dp"
+        android:text="Progress:"
+        android:textColor="@color/colorprogres"
+        android:textSize="62dp" />
+
+    <TextView
+        android:id="@+id/progNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="50dp"
+        android:text="0"
+        android:textSize="62dp" />
+
+        <Button
+            android:id="@+id/btnNadalReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Reset" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_Reset"
+            android:layout_width="@dimen/width_max"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="24dp"
+            android:textSize="30dp"
+            android:text="Reset" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="@dimen/width_max"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="24dp"
+            android:textSize="30dp"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="@dimen/width_max"
+            android:layout_height="@dimen/height_max"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="24dp"
+            android:textSize="30dp"
+            android:text="load" />
+    </LinearLayout>
+
+
+</LinearLayout>

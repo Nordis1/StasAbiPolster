@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_max">180dp</dimen>
+    <dimen name="width_min">150dp</dimen>
+    <dimen name="width_superMax_230dp">230dp</dimen>
+    <dimen name="height_min">60dp</dimen>
+    <dimen name="height_max">90dp</dimen>
+
+    //для layout activity_out_view
+    <dimen name="width_min_out">90dp</dimen>
+    <dimen name="width_max_out">160dp</dimen> // 200 - 80
+    <dimen name="heigth_min_out">50dp</dimen>
+    <dimen name="heigth_max_out">80dp</dimen> //90 - 80
+    <dimen name="textSize_out">30dp</dimen>
+    <dimen name="textSize_out1">56dp</dimen>
+
+</resources>
